@@ -1,0 +1,18 @@
+{
+  "log": ["*"],
+  "databases": {
+    "todos": {
+      "users": {
+        "moderator": {"password": "pass", "admin_channels": ["*"]},
+        "laura": {"password": "pass"},
+        "james": {"password": "pass"},
+        "adam": {"password": "pass"}
+      },
+      "sync": `function(doc, oldDoc) {
+        var channelname = "chan_" + doc.owner
+        channel(channelname);
+        access(doc.owner, channelname);
+      }`
+    }
+  }
+}
