@@ -84,4 +84,4 @@ var styles = StyleSheet.create({
   }
 });
 
-AppRegistry.registerComponent('HelloWorld', () => HelloWorld);
+AppRegistry.registerComponent('UntitledTodoApp', () => HelloWorld);

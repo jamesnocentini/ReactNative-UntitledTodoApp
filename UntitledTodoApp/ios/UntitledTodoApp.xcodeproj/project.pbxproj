@@ -12,7 +12,7 @@
 		00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
-		00E356F31AD99517003FC87E /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* HelloWorldTests.m */; };
+		00E356F31AD99517003FC87E /* UntitledTodoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* UntitledTodoAppTests.m */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
@@ -22,15 +22,15 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		BE33B32E1C3A93D0006ACDB3 /* libReactCBLite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE33B32D1C3A93B8006ACDB3 /* libReactCBLite.a */; };
-		BE33B3301C3A93DB006ACDB3 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BE33B32F1C3A93DB006ACDB3 /* libsqlite3.0.tbd */; };
-		BE33B3321C3A93E3006ACDB3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BE33B3311C3A93E3006ACDB3 /* libz.tbd */; };
-		BE33B3341C3A93E8006ACDB3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE33B3331C3A93E8006ACDB3 /* Security.framework */; };
-		BE33B3361C3A93EE006ACDB3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE33B3351C3A93EE006ACDB3 /* CFNetwork.framework */; };
-		BE33B3381C3A93F4006ACDB3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE33B3371C3A93F4006ACDB3 /* SystemConfiguration.framework */; };
-		BE33B33B1C3A9400006ACDB3 /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE33B3391C3A9400006ACDB3 /* CouchbaseLite.framework */; };
-		BE33B33C1C3A9400006ACDB3 /* CouchbaseLiteListener.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE33B33A1C3A9400006ACDB3 /* CouchbaseLiteListener.framework */; };
-		BE33B33F1C3A9408006ACDB3 /* libCBLJSViewCompiler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE33B33E1C3A9408006ACDB3 /* libCBLJSViewCompiler.a */; };
+		BEAE10AE1C3C63A100EF8ACA /* libReactCBLite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAE10AD1C3C639100EF8ACA /* libReactCBLite.a */; };
+		BEAE10B01C3C63AC00EF8ACA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAE10AF1C3C63AC00EF8ACA /* SystemConfiguration.framework */; };
+		BEAE10B21C3C63B300EF8ACA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAE10B11C3C63B300EF8ACA /* Security.framework */; };
+		BEAE10B41C3C63BA00EF8ACA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAE10B31C3C63BA00EF8ACA /* libz.tbd */; };
+		BEAE10B61C3C63BF00EF8ACA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAE10B51C3C63BF00EF8ACA /* libsqlite3.tbd */; };
+		BEAE10B81C3C63CD00EF8ACA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAE10B71C3C63CD00EF8ACA /* CFNetwork.framework */; };
+		BEAE10BA1C3C640100EF8ACA /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAE10B91C3C640100EF8ACA /* CouchbaseLite.framework */; };
+		BEAE10BD1C3C640900EF8ACA /* libCBLJSViewCompiler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAE10BC1C3C640900EF8ACA /* libCBLJSViewCompiler.a */; };
+		BEAE10BF1C3C642200EF8ACA /* CouchbaseLiteListener.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAE10BE1C3C642200EF8ACA /* CouchbaseLiteListener.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,7 +74,7 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = HelloWorld;
+			remoteInfo = UntitledTodoApp;
 		};
 		139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -111,9 +111,9 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
-		BE33B32C1C3A93B8006ACDB3 /* PBXContainerItemProxy */ = {
+		BEAE10AC1C3C639100EF8ACA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BE33B31E1C3A93B7006ACDB3 /* ReactCBLite.xcodeproj */;
+			containerPortal = BEAE109E1C3C639100EF8ACA /* ReactCBLite.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = BE8EFD251C0E6C6B00627BBA;
 			remoteInfo = ReactCBLite;
@@ -127,31 +127,31 @@
 		00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
 		00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
 		00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* UntitledTodoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UntitledTodoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* UntitledTodoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UntitledTodoAppTests.m; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = HelloWorld/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = HelloWorld/AppDelegate.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* UntitledTodoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UntitledTodoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = UntitledTodoApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = UntitledTodoApp/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HelloWorld/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = HelloWorld/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = HelloWorld/main.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = UntitledTodoApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = UntitledTodoApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = UntitledTodoApp/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		BE33B31E1C3A93B7006ACDB3 /* ReactCBLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactCBLite.xcodeproj; path = "../node_modules/react-native-couchbase-lite/ios/ReactCBLite.xcodeproj"; sourceTree = "<group>"; };
-		BE33B32F1C3A93DB006ACDB3 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
-		BE33B3311C3A93E3006ACDB3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		BE33B3331C3A93E8006ACDB3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		BE33B3351C3A93EE006ACDB3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		BE33B3371C3A93F4006ACDB3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		BE33B3391C3A9400006ACDB3 /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLite.framework; sourceTree = "<group>"; };
-		BE33B33A1C3A9400006ACDB3 /* CouchbaseLiteListener.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLiteListener.framework; sourceTree = "<group>"; };
-		BE33B33D1C3A9408006ACDB3 /* CBLRegisterJSViewCompiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBLRegisterJSViewCompiler.h; sourceTree = "<group>"; };
-		BE33B33E1C3A9408006ACDB3 /* libCBLJSViewCompiler.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCBLJSViewCompiler.a; sourceTree = "<group>"; };
+		BEAE109E1C3C639100EF8ACA /* ReactCBLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactCBLite.xcodeproj; path = "../node_modules/react-native-couchbase-lite/ios/ReactCBLite.xcodeproj"; sourceTree = "<group>"; };
+		BEAE10AF1C3C63AC00EF8ACA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BEAE10B11C3C63B300EF8ACA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BEAE10B31C3C63BA00EF8ACA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		BEAE10B51C3C63BF00EF8ACA /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		BEAE10B71C3C63CD00EF8ACA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BEAE10B91C3C640100EF8ACA /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLite.framework; sourceTree = "<group>"; };
+		BEAE10BB1C3C640900EF8ACA /* CBLRegisterJSViewCompiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBLRegisterJSViewCompiler.h; sourceTree = "<group>"; };
+		BEAE10BC1C3C640900EF8ACA /* libCBLJSViewCompiler.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCBLJSViewCompiler.a; sourceTree = "<group>"; };
+		BEAE10BE1C3C642200EF8ACA /* CouchbaseLiteListener.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLiteListener.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,20 +166,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE33B33C1C3A9400006ACDB3 /* CouchbaseLiteListener.framework in Frameworks */,
-				BE33B3381C3A93F4006ACDB3 /* SystemConfiguration.framework in Frameworks */,
-				BE33B3361C3A93EE006ACDB3 /* CFNetwork.framework in Frameworks */,
-				BE33B33B1C3A9400006ACDB3 /* CouchbaseLite.framework in Frameworks */,
-				BE33B33F1C3A9408006ACDB3 /* libCBLJSViewCompiler.a in Frameworks */,
-				BE33B3341C3A93E8006ACDB3 /* Security.framework in Frameworks */,
-				BE33B3321C3A93E3006ACDB3 /* libz.tbd in Frameworks */,
-				BE33B3301C3A93DB006ACDB3 /* libsqlite3.0.tbd in Frameworks */,
-				BE33B32E1C3A93D0006ACDB3 /* libReactCBLite.a in Frameworks */,
+				BEAE10B81C3C63CD00EF8ACA /* CFNetwork.framework in Frameworks */,
+				BEAE10B61C3C63BF00EF8ACA /* libsqlite3.tbd in Frameworks */,
+				BEAE10BD1C3C640900EF8ACA /* libCBLJSViewCompiler.a in Frameworks */,
+				BEAE10BA1C3C640100EF8ACA /* CouchbaseLite.framework in Frameworks */,
+				BEAE10B41C3C63BA00EF8ACA /* libz.tbd in Frameworks */,
+				BEAE10B21C3C63B300EF8ACA /* Security.framework in Frameworks */,
+				BEAE10B01C3C63AC00EF8ACA /* SystemConfiguration.framework in Frameworks */,
+				BEAE10AE1C3C63A100EF8ACA /* libReactCBLite.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
 				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
 				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
+				BEAE10BF1C3C642200EF8ACA /* CouchbaseLiteListener.framework in Frameworks */,
 				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
@@ -231,13 +231,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00E356EF1AD99517003FC87E /* HelloWorldTests */ = {
+		00E356EF1AD99517003FC87E /* UntitledTodoAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* HelloWorldTests.m */,
+				00E356F21AD99517003FC87E /* UntitledTodoAppTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = HelloWorldTests;
+			path = UntitledTodoAppTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -264,7 +264,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* HelloWorld */ = {
+		13B07FAE1A68108700A75B9A /* UntitledTodoApp */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -275,7 +275,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = HelloWorld;
+			name = UntitledTodoApp;
 			sourceTree = "<group>";
 		};
 		146834001AC3E56700842450 /* Products */ = {
@@ -297,7 +297,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				BE33B31E1C3A93B7006ACDB3 /* ReactCBLite.xcodeproj */,
+				BEAE109E1C3C639100EF8ACA /* ReactCBLite.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
 				00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */,
@@ -323,10 +323,10 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				BE33B3401C3A942E006ACDB3 /* Frameworks */,
-				13B07FAE1A68108700A75B9A /* HelloWorld */,
+				BEAE10C01C3C658700EF8ACA /* Frameworks */,
+				13B07FAE1A68108700A75B9A /* UntitledTodoApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* HelloWorldTests */,
+				00E356EF1AD99517003FC87E /* UntitledTodoAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 			);
 			indentWidth = 2;
@@ -336,32 +336,32 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* HelloWorld.app */,
-				00E356EE1AD99517003FC87E /* HelloWorldTests.xctest */,
+				13B07F961A680F5B00A75B9A /* UntitledTodoApp.app */,
+				00E356EE1AD99517003FC87E /* UntitledTodoAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BE33B31F1C3A93B7006ACDB3 /* Products */ = {
+		BEAE109F1C3C639100EF8ACA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE33B32D1C3A93B8006ACDB3 /* libReactCBLite.a */,
+				BEAE10AD1C3C639100EF8ACA /* libReactCBLite.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BE33B3401C3A942E006ACDB3 /* Frameworks */ = {
+		BEAE10C01C3C658700EF8ACA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BE33B33D1C3A9408006ACDB3 /* CBLRegisterJSViewCompiler.h */,
-				BE33B33E1C3A9408006ACDB3 /* libCBLJSViewCompiler.a */,
-				BE33B3391C3A9400006ACDB3 /* CouchbaseLite.framework */,
-				BE33B33A1C3A9400006ACDB3 /* CouchbaseLiteListener.framework */,
-				BE33B3371C3A93F4006ACDB3 /* SystemConfiguration.framework */,
-				BE33B3351C3A93EE006ACDB3 /* CFNetwork.framework */,
-				BE33B3331C3A93E8006ACDB3 /* Security.framework */,
-				BE33B3311C3A93E3006ACDB3 /* libz.tbd */,
-				BE33B32F1C3A93DB006ACDB3 /* libsqlite3.0.tbd */,
+				BEAE10BB1C3C640900EF8ACA /* CBLRegisterJSViewCompiler.h */,
+				BEAE10BC1C3C640900EF8ACA /* libCBLJSViewCompiler.a */,
+				BEAE10BE1C3C642200EF8ACA /* CouchbaseLiteListener.framework */,
+				BEAE10B91C3C640100EF8ACA /* CouchbaseLite.framework */,
+				BEAE10B71C3C63CD00EF8ACA /* CFNetwork.framework */,
+				BEAE10B51C3C63BF00EF8ACA /* libsqlite3.tbd */,
+				BEAE10B31C3C63BA00EF8ACA /* libz.tbd */,
+				BEAE10B11C3C63B300EF8ACA /* Security.framework */,
+				BEAE10AF1C3C63AC00EF8ACA /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -369,9 +369,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* HelloWorldTests */ = {
+		00E356ED1AD99517003FC87E /* UntitledTodoAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "HelloWorldTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "UntitledTodoAppTests" */;
 			buildPhases = (
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
@@ -382,14 +382,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = HelloWorldTests;
-			productName = HelloWorldTests;
-			productReference = 00E356EE1AD99517003FC87E /* HelloWorldTests.xctest */;
+			name = UntitledTodoAppTests;
+			productName = UntitledTodoAppTests;
+			productReference = 00E356EE1AD99517003FC87E /* UntitledTodoAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* HelloWorld */ = {
+		13B07F861A680F5B00A75B9A /* UntitledTodoApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "UntitledTodoApp" */;
 			buildPhases = (
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -400,9 +400,9 @@
 			);
 			dependencies = (
 			);
-			name = HelloWorld;
+			name = UntitledTodoApp;
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* HelloWorld.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* UntitledTodoApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -418,12 +418,9 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
-					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = 863R969N56;
-					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "HelloWorld" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "UntitledTodoApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -476,14 +473,14 @@
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 				},
 				{
-					ProductGroup = BE33B31F1C3A93B7006ACDB3 /* Products */;
-					ProjectRef = BE33B31E1C3A93B7006ACDB3 /* ReactCBLite.xcodeproj */;
+					ProductGroup = BEAE109F1C3C639100EF8ACA /* Products */;
+					ProjectRef = BEAE109E1C3C639100EF8ACA /* ReactCBLite.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* HelloWorld */,
-				00E356ED1AD99517003FC87E /* HelloWorldTests */,
+				13B07F861A680F5B00A75B9A /* UntitledTodoApp */,
+				00E356ED1AD99517003FC87E /* UntitledTodoAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -559,11 +556,11 @@
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		BE33B32D1C3A93B8006ACDB3 /* libReactCBLite.a */ = {
+		BEAE10AD1C3C639100EF8ACA /* libReactCBLite.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libReactCBLite.a;
-			remoteRef = BE33B32C1C3A93B8006ACDB3 /* PBXContainerItemProxy */;
+			remoteRef = BEAE10AC1C3C639100EF8ACA /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -609,7 +606,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* HelloWorldTests.m in Sources */,
+				00E356F31AD99517003FC87E /* UntitledTodoAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,7 +624,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* HelloWorld */;
+			target = 13B07F861A680F5B00A75B9A /* UntitledTodoApp */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -639,7 +636,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = HelloWorld;
+			path = UntitledTodoApp;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -657,11 +654,11 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = HelloWorldTests/Info.plist;
+				INFOPLIST_FILE = UntitledTodoAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UntitledTodoApp.app/UntitledTodoApp";
 			};
 			name = Debug;
 		};
@@ -674,11 +671,11 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = HelloWorldTests/Info.plist;
+				INFOPLIST_FILE = UntitledTodoAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UntitledTodoApp.app/UntitledTodoApp";
 			};
 			name = Release;
 		};
@@ -686,8 +683,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEAD_CODE_STRIPPING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -698,15 +693,14 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 				);
-				INFOPLIST_FILE = HelloWorld/Info.plist;
+				INFOPLIST_FILE = UntitledTodoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = HelloWorld;
-				PROVISIONING_PROFILE = "";
+				PRODUCT_NAME = UntitledTodoApp;
 			};
 			name = Debug;
 		};
@@ -714,8 +708,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -725,15 +717,14 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 				);
-				INFOPLIST_FILE = HelloWorld/Info.plist;
+				INFOPLIST_FILE = UntitledTodoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = HelloWorld;
-				PROVISIONING_PROFILE = "";
+				PRODUCT_NAME = UntitledTodoApp;
 			};
 			name = Release;
 		};
@@ -756,7 +747,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -803,7 +793,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -828,7 +817,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "UntitledTodoAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -837,7 +826,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "UntitledTodoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -846,7 +835,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "HelloWorld" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "UntitledTodoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
