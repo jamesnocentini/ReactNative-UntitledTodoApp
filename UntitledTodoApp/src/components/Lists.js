@@ -103,11 +103,11 @@ var Lists = React.createClass({
           tintColor="#ED2226"></NavigationBar>
         <ListView
           dataSource={this.state.dataSource}
-          renderRow={this.renderList} />
+          renderRow={this.renderRow} />
       </View>
     );
   },
-  renderList: function(list) {
+  renderRow: function(list) {
     var list = list.value;
     return (
       <View style={styles.listCell}>

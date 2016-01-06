@@ -21,7 +21,7 @@ var Login = React.createClass({
   },
   _onLoginButtonPressed: function() {
     // 1 - Request configuration
-    var remote = `http://${this.state.username}:${this.state.password}@192.168.11.232:4984/todos`;
+    var remote = `http://${this.state.username}:${this.state.password}@localhost:4984/todos`;
     var credentials = this.state;
     var settings = {
       method: 'POST',
@@ -55,8 +55,8 @@ var Login = React.createClass({
 
                 database.createDesignDocument("_design/todo", todoViews);
               }).catch((err) => {
-              throw err
-            });
+                throw err
+              });
             
             var data = {username: credentials.username};
             that.props.navigator.push({id: 2, data: data});
