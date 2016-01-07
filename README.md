@@ -1,15 +1,15 @@
 # Introducing the React Native Couchbase Lite Module
 
-Recently, we published a series of articles on the topic of using Couchbase Lite in a React Native application. In this tutorial, we’ll take it one step further and use the recommended [Couchbase Lite Module](https://github.com/fraserxu/react-native-couchbase-lite) for React Native (available as an [npm module](https://www.npmjs.com/package/react-native-couchbase-lite)). You will learn the following core concepts:
+Recently, we published a series of articles on the topic of using Couchbase Lite in a React Native application. In this tutorial, you’ll take it one step further and use the recommended [Couchbase Lite Module](https://github.com/fraserxu/react-native-couchbase-lite) for React Native (available as an [npm module](https://www.npmjs.com/package/react-native-couchbase-lite)). You will add the necessary Couchbase Lite code to complete the Login and List Screens for a simple Todo Application. By the end of the tutorial, you will have covered the following core concepts:
 
-- Creating, deleting a database and documents within it
-- Using Couchbase Views to display List documents by date
-- Replications with Basic Authentication
-- Creating Sync Gateway Users and using a Sync Function
+- Creating, deleting a database and documents within it.
+- Using Couchbase Views to display List documents by date.
+- Replications with Basic Authentication.
+- Creating Sync Gateway Users and using a Sync Function.
 
 ## Getting Started
 
-To save some time, I’ve already put together a starter project which contains all the UI code and can be found [here](http://google.com). Go ahead and download it to your preferred directory and unzip the content. First, install the dependencies:
+To save some time, I’ve already put together a starter project which contains all the UI code. Go ahead and [download it](http://cl.ly/0k040P1W0v3f/UntitledTodoApp-starter.zip) to your preferred directory and unzip the content. Then, from the project directory install the dependencies:
 
 ```
 $ npm install
@@ -27,11 +27,11 @@ Next, start the React Native daemon:
 $ react-native start
 ```
 
-Open the Xcode project at `ios/UntitledTodoApp.xcodeproj` and run it in the simulator or device from Xcode. Check that everything is working as expected:
+Open the Xcode project at `ios/UntitledTodoApp.xcodeproj` and run it in the simulator or device from Xcode. You should see both screens:
 
 ![](assets/screens-start.png)
 
-Don’t forget to enable LiveReload using the `Cmd+D` shortcut (and Chrome Debugging might be handy at times!):
+Notice that the Log Out button doesn't take you back to the LogIn Screen and nothing is displayed in the ListView. Don't worry, you will fix that in the next section :) Remember to enable LiveReload using the `Cmd+D` shortcut (and Chrome Debugging might be handy at times!):
 
 ![](assets/tools.png)
 
@@ -92,7 +92,7 @@ var data = {username: credentials.username};
 this.props.navigator.push({id: 2, data: data});
 ```
 
-You’re creating the database and then registering a design document with a view to query documents by their `created_at` property.
+Here, you’re creating the database and then registering a design document with a view to query documents by their `created_at` property.
 
 Next, open `Lists.js` and require the database object once more:
 
@@ -111,7 +111,7 @@ database.deleteDatabase()
   });
 ```
 
-You’re simply deleting the database (and all the documents and potential replication in progress with it) and then returning to the LogIn View.
+You’re simply deleting the database (and all the documents and potential replications in progress with it) and then returning to the LogIn View.
 
 Next, in the `handler` for the `rightButtonConfig` add:
 
@@ -174,7 +174,7 @@ Here's the breakdown of what is happening:
 2. In `componentWillMount` you’re using the `setInterval` to check for new documents periodically and update the UI.
 3. Stop the interval method when the component unmounts (i.e. when returning to the LogIn View).
 
-Log the View Query result when the promise `queryView` is fulfilled, you will see a lot of output in the Chrome Console. The result of this View Query has the following JSON (you can also see in from any browser at [http://localhost:5984/myapp/\_design/todo/\_view/lists](http://localhost:5984/myapp/_design/todo/_view/lists) with `admin` for the username and `password` for the password):
+Create a new list and open [http://localhost:5984/myapp/\_design/todo/\_view/lists](http://localhost:5984/myapp/_design/todo/_view/lists) in your browser. You must provide `admin` for the username and `password` for the password. The JSON response should look like this:
 
 ```js
 {
@@ -201,7 +201,7 @@ Log the View Query result when the promise `queryView` is fulfilled, you will se
 
 To display them on the screen you will use the `ListView` component. It has two mandatory attributes:
 
-- `dataSource` to provide the data: you can pass `this.state.dataSource` here.
+- `dataSource` to provide the data: you can pass `this.state.dataSource`.
 - `renderRow` takes a function that returns a `View` object given a list item.
 
 You’re missing the method to draw the row, below `render`, add a `renderRow` method with the following:
@@ -218,7 +218,7 @@ renderRow: function(list) {
 }
 ```
 
-The desired data is held in the `value` field and you’re displaying the title and owner fields in `Text` elements. Back in the return statement of the `render` method, add the `ListView` below the `NavigationBar` component:
+The desired data is held in the `value` field and you’re displaying the title and owner fields in `Text` elements. Back in the return statement of the `render` method, add the `ListView` below the `NavigationBar` component like so:
 
 ```
 <View style={styles.container}>
@@ -330,7 +330,7 @@ fetch(remote + '/_session', settings)
 Here’s what is happening:
 
 1. Construct the URL of the remote database (in this case it’s a Sync Gateway database) and set the name/password JSON fields in the request body.
-2. Use the POST /\_session endpoint to check the name/password.
+2. Use the [POST /\_session](http://developer.couchbase.com/documentation/mobile/1.1.0/develop/references/sync-gateway/admin-rest-api/session/post---db--_session-/index.html) endpoint to check the name/password with Sync Gateway.
 3. If the credentials are valid, create the database and once that’s done kick off continuous push/pull replications and register a design document with a view to query document by their `created_at` property.
 4. If the credentials are invalid, display an alert window.
 
@@ -340,10 +340,7 @@ Run the application and login as different users. If possible, run the app on tw
 
 ## Conclusion
 
-In this tutorial, you learnt how to use the React Native Couchbase Lite module to build a simple Todo application where multiple users can log in. As an exercise, you can try the following:
-
-- Instead of creating a database with a hardcoded name when the user logs in, create a different one for each user. By doing so, you can simply switch database between users.
-- Use a [local document](http://developer.couchbase.com/documentation/mobile/1.1.0/develop/references/couchbase-lite/rest-api/local-document/index.html) to persist the user credentials and check if the user already logged in on app launch.
+In this tutorial, you learnt how to use the React Native Couchbase Lite module to build a simple Todo application where multiple users can log in.
 
 The final project can be found on [GitHub](https://github.com/jamiltz/ReactNative-UntitledTodoApp).
 
