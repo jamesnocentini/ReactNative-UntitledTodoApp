@@ -13,8 +13,8 @@ iOS9 or higher
 ## Getting Started
 
 ```
-$	npm install
-$ react-native start
+ $	npm install
+ $ react-native start
 ```
 
 Open `ios/UntitledTodoApp.xcodeproj` in Xcode and run on device or simulator (iOS9+)
